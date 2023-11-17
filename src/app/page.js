@@ -2,10 +2,10 @@
 import "animate.css";
 
 import Link from "next/Link";
-import NavBar from "./components/navBar/navBar.js";
+import NavBar from "./components/navBar/NavBar.js";
 import Footer from "./components/footer/Footer.js";
 import Card from "./components/cards/Card.js";
-import Textanime from "./components/textanime/textanime.js";
+import Textanime from "./components/textanime/Textanime.js";
 import ImgComponent from "./components/contain_img/ImgComponent.js";
 
 const name = "TechEase";
