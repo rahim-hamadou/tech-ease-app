@@ -1,5 +1,5 @@
 // @ts-nocheck
-import Link from "next/Link";
+
 import NavBar from "../components/navBar/NavBar.js";
 import Footer from "../components/footer/Footer.js";
 import ContactForm from "../components/contacform/ContactForm.js";
@@ -37,7 +37,6 @@ function contact() {
 				</div>
 			</div>
 
-			{/* <Link href="/">join Home</Link> */}
 			<Footer />
 		</>
 	);
