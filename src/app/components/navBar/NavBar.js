@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./NavBar.module.css";
 import React, { useEffect, useState } from "react";
 
