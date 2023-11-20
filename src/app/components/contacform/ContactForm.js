@@ -7,7 +7,7 @@ function ContactForm() {
 			className={styles.form_container}
 			action="mailto:techeaseassociation@gmail.com"
 			method="get"
-			encType="text/plain"
+			enctype="text/plain"
 		>
 			Nom
 			<input type="text" name="subject" placeholder="Votre nom" />

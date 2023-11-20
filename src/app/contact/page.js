@@ -1,9 +1,10 @@
 // @ts-nocheck
-
-import NavBar from "../components/navBar/NavBar.js";
+import Link from "next/Link";
+import NavBar from "../components/navBar/navBar.js";
 import Footer from "../components/footer/Footer.js";
+// import Card from "../components/cards/Card.js";
 import ContactForm from "../components/contacform/ContactForm.js";
-import ContactPhone from "../components/contactphone/ContactPhone.js";
+import ContactPhone from "../components/ContactPhone/ContactPhone.js";
 
 function contact() {
 	let dataContact = {
@@ -37,6 +38,7 @@ function contact() {
 				</div>
 			</div>
 
+			{/* <Link href="/">join Home</Link> */}
 			<Footer />
 		</>
 	);

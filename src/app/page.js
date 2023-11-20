@@ -1,11 +1,11 @@
 // @ts-nocheck
 import "animate.css";
 
-// import Link from "next/Link";
-import NavBar from "./components/navBar/NavBar.js";
+import Link from "next/Link";
+import NavBar from "./components/navBar/navBar.js";
 import Footer from "./components/footer/Footer.js";
 import Card from "./components/cards/Card.js";
-import Textanime from "./components/textanime/Textanime.js";
+import Textanime from "./components/textanime/textanime.js";
 import ImgComponent from "./components/contain_img/ImgComponent.js";
 
 const name = "TechEase";
@@ -83,6 +83,15 @@ export default function Home() {
 							<p className="home_header_message_footer">{data.message_footer}</p>
 						</div>
 					</div>
+
+					{/* <div className="flex flex-col ">
+						<Link className="bg-orange-300 " href="/team">
+							Team page
+						</Link>
+						<Link className="bg-gray-700 " href="/contact">
+							Contact Page
+						</Link>
+					</div> */}
 				</div>
 
 				<div className="main_body">

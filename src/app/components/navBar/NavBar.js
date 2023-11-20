@@ -1,7 +1,8 @@
 "use client";
-import Link from "next/link";
 import styles from "./NavBar.module.css";
 import React, { useEffect, useState } from "react";
+
+import Link from "next/Link";
 
 function NavBar() {
 	const [isMenuOpen, setMenuOpen] = useState(false);
