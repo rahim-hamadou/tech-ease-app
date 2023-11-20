@@ -16,7 +16,7 @@ export default function Footer() {
 						<a href="/team">Qui sommes nous</a>
 					</li>
 					<li className={styles.footer_list_item}>
-						<a href="/contact">Nous Contacter</a>
+						<a href="/contact">Contactez-nous</a>
 					</li>
 				</ul>
 			</div>

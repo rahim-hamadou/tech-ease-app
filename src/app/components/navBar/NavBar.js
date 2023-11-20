@@ -46,7 +46,7 @@ function NavBar() {
 							Nos Offres
 						</Link>
 						<Link href="/contact" className="text-white">
-							Nous Contacter
+							Contactez-nous
 						</Link>
 					</div>
 				</div>
