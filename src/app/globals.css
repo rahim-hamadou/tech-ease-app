@@ -82,8 +82,16 @@ body {
 
 .icon {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	.icon {
+		display: flex;
+		flex-direction: column;
+		margin: 5px;
+	}
 }
 .icon_el {
 	margin: 8px;

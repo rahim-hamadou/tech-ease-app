@@ -55,7 +55,7 @@ export default function Home() {
 							<div className="action_call">
 								<h1 className="home_header_title">{data.title} </h1>
 								<div className="icon">
-									<a href="mailto:techeaseassociation@gmail.com">
+									<a className="icon_el" href="mailto:techeaseassociation@gmail.com">
 										<ImgComponent
 											src="/email.svg"
 											width={data.dataImg.width}
@@ -83,23 +83,9 @@ export default function Home() {
 							<p className="home_header_message_footer">{data.message_footer}</p>
 						</div>
 					</div>
-
-					{/* <div className="flex flex-col ">
-						<Link className="bg-orange-300 " href="/team">
-							Team page
-						</Link>
-						<Link className="bg-gray-700 " href="/contact">
-							Contact Page
-						</Link>
-					</div> */}
 				</div>
 
-				<div className="main_body">
-					{/* TEST */}
-					{/* <Card /> */}
-
-					{/* <ContactForm /> */}
-				</div>
+				<div className="main_body"></div>
 			</div>
 
 			<footer>
