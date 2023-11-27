@@ -63,7 +63,7 @@ export default function Home() {
 											alt={data.dataImg.alt}
 										/>
 									</a>
-									<a className="icon_el" href="tel:0123456789">
+									<a className="icon_el" href="tel:0785221344">
 										<ImgComponent
 											src="/phonecall.svg"
 											width={data.dataImg.width}

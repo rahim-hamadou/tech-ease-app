@@ -11,8 +11,8 @@ function ContactPhone(data) {
 			</p>
 			<p>
 				Telephone:
-				<a className="icon_el" href="tel: 0123456789">
-					0123456789
+				<a className="icon_el" href="tel: 0785221344">
+					07 85 22 13 44
 				</a>
 			</p>
 		</div>
